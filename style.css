@@ -243,6 +243,7 @@ div ul a {
 
 .page2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     position: relative;
     top: 520px;
