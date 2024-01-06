@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
 }
-body{
-    background: linear-gradient(to right , rgb(0, 0, 0), rgb(44 43 43), rgb(63 63 63), rgb(68 68 68));
+
+body {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(44 43 43), rgb(63 63 63), rgb(68 68 68));
     overflow-x: hidden;
 }
-html{
+
+html {
     scroll-behavior: smooth;
     scroll-padding: 10rem;
     /* scroll-padding: 135px; */
@@ -19,7 +21,8 @@ html{
     letter-spacing: 5px;
     margin-right: 210px;
 }
-.nav .anonyms::first-letter{
+
+.nav .anonyms::first-letter {
     color: rgb(224, 138, 7);
     font-size: 25px;
 }
@@ -45,27 +48,31 @@ html{
     text-transform: uppercase;
     font-weight: bolder;
     letter-spacing: 3px;
-    
+
 }
-.home{
+
+.home {
     text-decoration: underline;
     color: rgb(255, 154, 3);
 }
-.about{
-    color: white;
-}
-.project{
-    color: white;
-}
-.contact{
+
+.about {
     color: white;
 }
 
-div ul a{
+.project {
+    color: white;
+}
+
+.contact {
+    color: white;
+}
+
+div ul a {
     text-decoration: none;
 }
 
-.nav{
+.nav {
     animation: slide_up 1s ease 0.5s;
     display: flex;
     justify-content: space-around;
@@ -74,29 +81,32 @@ div ul a{
     position: sticky;
     top: 0;
     z-index: 1;
-    background: linear-gradient(to right , rgb(0, 0, 0), rgb(44 43 43), rgb(63 63 63), rgb(68 68 68));
-    
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(44 43 43), rgb(63 63 63), rgb(68 68 68));
+
 }
 
-.home:hover{
+.home:hover {
     /* background: linear-gradient( to right, rgb(220, 173, 234),rgb(85, 83, 85));
     background-clip: text;
     -webkit-text-fill-color: transparent; */
     color: white;
 }
-.about:hover{
+
+.about:hover {
     /* background: linear-gradient( to right, rgb(220, 173, 234),rgb(85, 83, 85));
     background-clip: text;
     -webkit-text-fill-color: transparent; */
     color: rgb(255, 154, 3);
 }
-.project:hover{
+
+.project:hover {
     /* background: linear-gradient( to right, rgb(220, 173, 234),rgb(85, 83, 85));
     background-clip: text;
     -webkit-text-fill-color: transparent; */
     color: rgb(255, 154, 3);
 }
-.contact:hover{
+
+.contact:hover {
     /* background: linear-gradient( to right, rgb(220, 173, 234),rgb(85, 83, 85));
     background-clip: text;
     -webkit-text-fill-color: transparent; */
@@ -124,7 +134,8 @@ div ul a{
     left: -50px;
     top: 30px;
 }
-.written{
+
+.written {
     color: white;
     position: relative;
     /* top: -200px;
@@ -132,48 +143,54 @@ div ul a{
     font-family: sans-serif;
     animation: slide_up 1s ease 0.5s;
 }
-.myself{
+
+.myself {
     font-size: 40px;
     font-weight: bold;
     /* display: inline; */
 }
-.web{
+
+.web {
     color: rgb(255, 153, 0);
     font-family: sans-serif;
     font-size: 25px;
     line-height: 2;
     font-weight: bold;
 }
-.merabaareme{
+
+.merabaareme {
     color: rgb(198, 196, 196);
     font-family: sans-serif;
     font-size: 17px;
     line-height: 1.5;
 }
 
-.btn{
+.btn {
     border: 1px solid rgb(255, 153, 0);
     height: 45px;
     width: 125px;
     border-radius: 50px;
     color: black;
-    background: linear-gradient( to right, rgb(224, 138, 7),rgb(201, 210, 79));
+    background: linear-gradient(to right, rgb(224, 138, 7), rgb(201, 210, 79));
     font-family: sans-serif;
     font-size: 14px;
     font-weight: bold;
 
 }
-.btn2{
+
+.btn2 {
     position: relative;
     left: 30px;
 }
-.btn:hover{
+
+.btn:hover {
     cursor: pointer;
-    background: linear-gradient( to right, rgb(27, 27, 27),rgb(91, 88, 90));
+    background: linear-gradient(to right, rgb(27, 27, 27), rgb(91, 88, 90));
     color: azure;
     transition: all 1s ease-in-out;
 }
-.logo{
+
+.logo {
     cursor: pointer;
     height: 20px;
     width: 20px;
@@ -185,15 +202,17 @@ div ul a{
 }
 
 @keyframes slide_up {
-    0%{
+    0% {
         transform: translateY(250px);
         opacity: 0;
     }
-    100%{
+
+    100% {
         transform: translateY(0);
         opacity: 100px;
     }
 }
+
 /* @keyframes slide_x {
     0%{
         transform: translatex(250px);
@@ -202,23 +221,27 @@ div ul a{
         transform: translatex(0);
     }
 } */
-.logo a img{
+.logo a img {
     height: 20px;
     width: 20px;
 }
-.logo a img:hover{
+
+.logo a img:hover {
     animation: logo 1s ease;
     /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
+
 @keyframes logo {
-    0%{
+    0% {
         transform: translateY(5px);
     }
-    100%{
+
+    100% {
         transform: translateY(0);
     }
 }
-.page2{
+
+.page2 {
     display: flex;
     justify-content: center;
     position: relative;
@@ -226,116 +249,139 @@ div ul a{
     padding-bottom: 100px;
     gap: 100px;
 }
-div img{
+
+div img {
     height: 400px;
 }
-.text{
+
+.text {
     /* color: rgb(255, 255, 255); */
     font-family: sans-serif;
     font-size: 17px;
     line-height: 1.5;
 }
-.h1{
+
+.h1 {
     color: white;
     font-family: sans-serif;
     font-size: 40px;
     font-weight: bold;
 }
-.me{
-    color:rgb(255, 153, 0);
+
+.me {
+    color: rgb(255, 153, 0);
 }
 
-.skill{
+.skill {
     color: white;
     font-family: sans-serif;
     font-size: 25px;
     line-height: 2;
 }
-.words{
+
+.words {
     color: rgb(183, 183, 183);
     font-size: 17px;
     font-family: sans-serif;
 }
-.btn3{
+
+.btn3 {
     position: relative;
-    top: 60px;
+    top: 35px;
 }
-.page3{
+
+.page3 {
     position: relative;
     top: 700px;
 }
-.prjt{
+
+.prjt {
     color: white;
     text-align: center;
-    
+
 }
-.portfolio{
+
+.portfolio {
     font-family: sans-serif;
     color: rgb(164, 160, 160);
 }
-.lp{
+
+.lp {
     font-family: sans-serif;
     font-size: 40px;
     font-weight: bold;
     line-height: 1.5;
 }
-.IMAGES-1{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+.tsk1{
     margin-top: 40px;
 }
-.pic{
-    height: 180px;
-    width: 310px;
-}
-.img5{
-    height: 180px;
-}
-.IMAGES-2{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 20px;
-}
-.text22{
+.lists{
     color: rgb(183, 183, 183);
     text-align: center;
+    list-style-type:circle;
     font-family: sans-serif;
+    line-height: 1.5;
+    margin-top: 20px;
     font-size: 18px;
-    margin-top: 40px;
-    /* padding-bottom: 20px; */
+} 
+.click{
+    font-size: 14px;
 }
-.page4{
+.netflix{
+    height: 20px;
+}
+.btn22{
+    display: flex;
+    justify-content: center;
     position: relative;
-    top: 800px;
+    top: 30px;
+}
+
+
+.text22 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.page4 {
+    position: relative;
+    top: 1000px;
     padding-bottom: 50%;
 }
-.contactme{
+
+.contactme {
     color: white;
     position: relative;
     top: 60px;
 }
-.flex{
+
+.flex {
     display: flex;
     justify-content: center;
     gap: 70px;
 }
-.contactme1{
+
+.contactme1 {
     font-size: 40px;
     font-family: sans-serif;
     font-weight: bold;
 }
-.a{
+
+.a {
     color: rgb(255, 153, 0);
 }
-.contactme2{
+
+.contactme2 {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: bold;
     line-height: 2;
 }
-.www{
+
+.www {
     font-size: 16px;
     color: rgb(183, 183, 183);
     font-family: sans-serif;
@@ -343,7 +389,8 @@ div img{
     position: relative;
     /* padding-bottom: 50%; */
 }
-.text1{
+
+.text1 {
     border: 1px solid gray;
     height: 40px;
     width: 450px;
@@ -352,7 +399,8 @@ div img{
     background-color: transparent;
     color: white;
 }
-.text2{
+
+.text2 {
     border: 1px solid gray;
     height: 200px;
     width: 450px;
@@ -361,9 +409,24 @@ div img{
     background-color: transparent;
     color: white;
 }
-.lastbtn{
+
+.lastbtn {
     margin: 3px;
     position: relative;
     top: 10px;
     width: 150px;
+}
+.height{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.end{
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    position: relative;
+    top: 600px;
+    text-align: center;
 }
